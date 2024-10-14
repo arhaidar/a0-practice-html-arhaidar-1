@@ -1,0 +1,24 @@
+.top-nav-bar {
+
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+}
+
+.nav-link {
+    border: 5px red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.5s;
+}
+
+.nav-link:hover {
+    background-color: #575757;
+}
+
+.section #home {
+    border: 10px solid red;
+}
