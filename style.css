@@ -3,8 +3,6 @@ body {
 }
 
 .top-nav-bar {
-
-    border-radius: 10px;
     padding: 10px;
     display: flex;
     justify-content: space-around;
@@ -12,7 +10,6 @@ body {
 }
 
 .nav-link {
-    border: 5px red;
     color: white;
     text-decoration: none;
     padding: 10px 15px;
