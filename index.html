@@ -1,13 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A0-HTML Practice</title>
+    <title>Car Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <p>
-        this is a test.
-    </p>
+    <div class="top-nav-bar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
+    <section class="video-section">
+        <video autoplay muted loop class="mk4-video">
+            <source src="./videos/neon-night-toyota-supra-desktop-wallpaperwaifu.com.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <h1>JDM Garage</h1>
+    </section>
+    <section class="cars-showcase">
+        <button class="scroll-left" type="button"></button>
+        <!--- Gallery Section-->
+        <div class="car-container" id="carContainer">
+            
+            <div class="car" id="car1">
+                <img src="./images/mk4Supra.jpg" alt="mk4Supra" class="car-image">
+            </div>
+           
+            <div class="car" id="car2">
+                <img src="./images/r34Skyline.jpg" alt="r34Skyline" class="car-image">
+            </div>
+           
+            <div class="car" id="car3">
+                <img src="./images/r32skyline.jpg" alt="r32skyline" class="car-image">
+            </div>
+            
+            <div class="car" id="car4">
+                <img src="./images/rx7.jpg" alt="rx7" class="car-image">
+            </div>
+           
+            <div class="car" id="car5">
+                <img src="./images/gti.jpg" alt="gti" class="car-image">
+            </div>
+           
+            <div class="car" id="car6">
+                <img src="./images/gt2rs.jpg" alt="gt2rs" class="car-image">
+            </div>
+           
+            <div class="car" id="car7">
+                <img src="./images/370z.jpg" alt="z370" class="car-image">
+            </div>
+            
+            <div class="car" id="car8">
+                <img src="./images/nsx.jpg" alt="nsx" class="car-image">
+            </div>
+            
+            <div class="car" id="car9">
+                <img src="./images/68mustang.jpg" alt="mustang" class="car-image">
+            </div>
+           
+            <div class="car" id="car10">
+                <img src="./images/porche-964-911.jpg" alt="porche" class="car-image">
+            </div>
+        </div>
+        <button class="scroll-right" type="button"></button>
+    </section>
 </body>
+
 </html>
