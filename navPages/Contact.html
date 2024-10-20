@@ -4,17 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="Contact.css">
 </head>
 <body>
     <div class="wrapper">
-        <video autoplay muted loop class="background-video">
-            <source src="./videos/neon-night-toyota-supra-desktop-wallpaperwaifu.com.mp4" type="video/mp4">
-            Your browser does not support HTML5 video.
-        </video>
-
         <div class="contact-form">
-            <h2>Contact Us</h2>
-            <form onsubmit="rickRoll(event)">
+            <h2>Contact Me</h2>
+            <form>
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -27,21 +23,15 @@
                     <label for="inquiry">Inquiry Type:</label>
                     <select id="inquiry" name="inquiry">
                         <option value="general">General Inquiry</option>
-                        <option value="support">Support</option>
                         <option value="feedback">Feedback</option>
                     </select>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">
+                    <a href="https://youtu.be/SXHMnicI6Pg?si=O211FxhwKS8Iq_6V" class="submit-button">Submit</a>
+                </button>
             </form>
             <button class="back-button" onclick="window.history.back()">Back</button>
         </div>
     </div>
-
-    <script>
-        function rickRoll(event) {
-            event.preventDefault(); // Prevent form submission
-            window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; // Redirect to Rickroll
-        }
-    </script>
 </body>
 </html>
