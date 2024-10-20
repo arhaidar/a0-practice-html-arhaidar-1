@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -117,9 +115,9 @@ h1 {
     /* border: 10px solid green;*/ /*Debug*/
 }
 
-.car-container::-webkit-scrollbar {
+/*gett rid of the scroll bar below the gallery sec*/
+.car-container::-webkit-scrollbar { /* https: //www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
     display: none;
-    /* Hide scrollbar for WebKit browsers */
 }
 
 .car {
@@ -149,7 +147,6 @@ h1 {
     transition: all 1s ease-out;
 }
 .car:hover {
-    /* transform: scale(1.15) ; */
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
