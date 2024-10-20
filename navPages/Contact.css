@@ -1,4 +1,30 @@
+.submission {
+    border-radius: 10px;
+}
+
+.submission:hover {
+    background-color: rgb(224, 47, 47);
+}
+
 .submit-button {
     text-decoration: none;
     color: black;
+}
+
+.back-button {
+    border-radius: 5px;
+    width: 60px;
+}
+
+.back-button:hover {
+    background-color: rgb(169, 198, 245);;
+}
+
+#inquiry {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#inquiry:hover {
+    background-color: rgb(169, 198, 245);
 }
